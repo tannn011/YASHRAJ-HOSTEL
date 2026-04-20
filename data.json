@@ -1,0 +1,197 @@
+{
+  "hostel": {
+    "name": "Yashar's Hostel",
+    "tagline": "Comfortable Living for Students",
+    "description": "Experience premium student living with modern amenities, wholesome meals, and a vibrant community atmosphere. Your home away from home.",
+    "phone": "+91 8605463560",
+    "whatsapp": "918605463560",
+    "email": "info@yasharshostel.com",
+    "address": {
+      "line1": "123 University Road",
+      "line2": "Near City College Campus",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411001",
+      "country": "India"
+    },
+    "social": {
+      "instagram": "https://instagram.com/yasharshostel",
+      "facebook": "https://facebook.com/yasharshostel",
+      "twitter": "https://twitter.com/yasharshostel",
+      "youtube": "https://youtube.com/@yasharshostel"
+    }
+  },
+  "navigation": [
+    { "id": "home", "label": "Home", "icon": "🏠" },
+    { "id": "rooms", "label": "Rooms", "icon": "🛏" },
+    { "id": "food", "label": "Food", "icon": "🍽" },
+    { "id": "location", "label": "Location", "icon": "📍" },
+    { "id": "booking", "label": "Booking", "icon": "📝" },
+    { "id": "contact", "label": "Contact", "icon": "📞" }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "type": "Single Occupancy",
+      "capacity": "1 Person",
+      "price": "₹8,000/month",
+      "image": "room-single.jpg",
+      "features": ["AC Room", "Attached Bathroom", "Study Desk", "Wi-Fi", "Wardrobe"],
+      "available": true,
+      "badge": "Premium"
+    },
+    {
+      "id": 2,
+      "type": "2-Sharing Room",
+      "capacity": "2 Persons",
+      "price": "₹6,000/month",
+      "image": "room-double.jpg",
+      "features": ["AC Room", "Common Bathroom", "Study Desk", "Wi-Fi", "Wardrobe"],
+      "available": true,
+      "badge": "Popular"
+    },
+    {
+      "id": 3,
+      "type": "3-Sharing Room",
+      "capacity": "3 Persons",
+      "price": "₹4,500/month",
+      "image": "room-triple.jpg",
+      "features": ["Fan Room", "Common Bathroom", "Study Area", "Wi-Fi", "Storage"],
+      "available": true,
+      "badge": "Value"
+    },
+    {
+      "id": 4,
+      "type": "4-Sharing Dormitory",
+      "capacity": "4 Persons",
+      "price": "₹3,500/month",
+      "image": "room-dorm.jpg",
+      "features": ["Fan Room", "Common Bathroom", "Common Study", "Wi-Fi", "Locker"],
+      "available": false,
+      "badge": "Budget"
+    },
+    {
+      "id": 5,
+      "type": "Deluxe Single",
+      "capacity": "1 Person",
+      "price": "₹12,000/month",
+      "image": "room-deluxe.jpg",
+      "features": ["AC Room", "Private Bathroom", "Balcony", "Mini Fridge", "TV", "Premium Wi-Fi"],
+      "available": true,
+      "badge": "Luxury"
+    },
+    {
+      "id": 6,
+      "type": "Twin Sharing Deluxe",
+      "capacity": "2 Persons",
+      "price": "₹8,500/month",
+      "image": "room-twin-deluxe.jpg",
+      "features": ["AC Room", "Attached Bathroom", "Study Desk", "Wi-Fi", "Wardrobe", "Balcony"],
+      "available": true,
+      "badge": "Best Seller"
+    }
+  ],
+  "gallery": [
+    { "id": 1, "src": "gallery-1.jpg", "alt": "Hostel Front View", "category": "exterior" },
+    { "id": 2, "src": "gallery-2.jpg", "alt": "Common Room", "category": "common" },
+    { "id": 3, "src": "gallery-3.jpg", "alt": "Study Area", "category": "common" },
+    { "id": 4, "src": "gallery-4.jpg", "alt": "Bedroom Interior", "category": "rooms" },
+    { "id": 5, "src": "gallery-5.jpg", "alt": "Dining Hall", "category": "dining" },
+    { "id": 6, "src": "gallery-6.jpg", "alt": "Bathroom Facilities", "category": "rooms" },
+    { "id": 7, "src": "gallery-7.jpg", "alt": "Terrace Garden", "category": "exterior" },
+    { "id": 8, "src": "gallery-8.jpg", "alt": "Recreation Area", "category": "common" }
+  ],
+  "facilities": [
+    { "icon": "🛡️", "name": "24/7 Security", "description": "Round the clock CCTV and guard" },
+    { "icon": "📶", "name": "High-Speed WiFi", "description": "100 Mbps fiber connection" },
+    { "icon": "🧹", "name": "Daily Cleaning", "description": "Professional housekeeping staff" },
+    { "icon": "💧", "name": "Hot Water", "description": "24/7 hot water supply" },
+    { "icon": "🔌", "name": "Power Backup", "description": "Uninterrupted power supply" },
+    { "icon": "🧺", "name": "Laundry Service", "description": "Weekly laundry included" },
+    { "icon": "🅿️", "name": "Parking", "description": "Two-wheeler parking available" },
+    { "icon": "📖", "name": "Study Room", "description": "Quiet study area with AC" }
+  ],
+  "foodMenu": {
+    "monday": {
+      "breakfast": { "items": ["Poha", "Chai", "Boiled Eggs"], "type": "mixed", "time": "7:30 AM - 9:00 AM" },
+      "lunch": { "items": ["Dal Fry", "Rice", "Roti", "Sabzi", "Salad"], "type": "veg", "time": "12:30 PM - 2:00 PM" },
+      "dinner": { "items": ["Chicken Curry", "Rice", "Roti", "Dal", "Sweet"], "type": "non-veg", "time": "7:30 PM - 9:00 PM" }
+    },
+    "tuesday": {
+      "breakfast": { "items": ["Idli Sambar", "Chai", "Banana"], "type": "veg", "time": "7:30 AM - 9:00 AM" },
+      "lunch": { "items": ["Rajma", "Rice", "Roti", "Aloo Gobi", "Raita"], "type": "veg", "time": "12:30 PM - 2:00 PM" },
+      "dinner": { "items": ["Egg Curry", "Rice", "Roti", "Paneer Sabzi"], "type": "mixed", "time": "7:30 PM - 9:00 PM" }
+    },
+    "wednesday": {
+      "breakfast": { "items": ["Upma", "Chai", "Sprouts"], "type": "veg", "time": "7:30 AM - 9:00 AM" },
+      "lunch": { "items": ["Chole", "Bhature", "Rice", "Salad", "Pickle"], "type": "veg", "time": "12:30 PM - 2:00 PM" },
+      "dinner": { "items": ["Fish Fry", "Dal", "Rice", "Roti", "Sabzi"], "type": "non-veg", "time": "7:30 PM - 9:00 PM" }
+    },
+    "thursday": {
+      "breakfast": { "items": ["Paratha", "Curd", "Chai", "Pickle"], "type": "veg", "time": "7:30 AM - 9:00 AM" },
+      "lunch": { "items": ["Sambar", "Rice", "Roti", "Dry Sabzi", "Papad"], "type": "veg", "time": "12:30 PM - 2:00 PM" },
+      "dinner": { "items": ["Mutton Curry", "Rice", "Roti", "Dal", "Gulab Jamun"], "type": "non-veg", "time": "7:30 PM - 9:00 PM" }
+    },
+    "friday": {
+      "breakfast": { "items": ["Bread Omelette", "Chai", "Juice"], "type": "non-veg", "time": "7:30 AM - 9:00 AM" },
+      "lunch": { "items": ["Paneer Butter Masala", "Rice", "Naan", "Salad"], "type": "veg", "time": "12:30 PM - 2:00 PM" },
+      "dinner": { "items": ["Chicken Biryani", "Raita", "Salad", "Sweet"], "type": "non-veg", "time": "7:30 PM - 9:00 PM" }
+    },
+    "saturday": {
+      "breakfast": { "items": ["Dosa", "Chutney", "Sambar", "Chai"], "type": "veg", "time": "7:30 AM - 9:00 AM" },
+      "lunch": { "items": ["Mix Veg", "Dal Tadka", "Rice", "Roti", "Buttermilk"], "type": "veg", "time": "12:30 PM - 2:00 PM" },
+      "dinner": { "items": ["Egg Biryani", "Paneer Tikka", "Roti", "Salad"], "type": "mixed", "time": "7:30 PM - 9:00 PM" }
+    },
+    "sunday": {
+      "breakfast": { "items": ["Chole Bhature", "Lassi", "Sweet"], "type": "veg", "time": "8:00 AM - 10:00 AM" },
+      "lunch": { "items": ["Special Thali", "Rice", "3 Sabzi", "Dal", "Dessert"], "type": "veg", "time": "12:30 PM - 2:30 PM" },
+      "dinner": { "items": ["Butter Chicken", "Naan", "Rice", "Gulab Jamun", "Salad"], "type": "non-veg", "time": "7:30 PM - 9:30 PM" }
+    }
+  },
+  "landmarks": [
+    { "name": "City College", "distance": "500m", "icon": "🎓" },
+    { "name": "Central Bus Station", "distance": "1.2 km", "icon": "🚌" },
+    { "name": "Railway Station", "distance": "2.5 km", "icon": "🚂" },
+    { "name": "City Hospital", "distance": "800m", "icon": "🏥" },
+    { "name": "Shopping Mall", "distance": "1.5 km", "icon": "🛒" },
+    { "name": "Public Library", "distance": "600m", "icon": "📚" },
+    { "name": "Sports Complex", "distance": "1 km", "icon": "🏟️" },
+    { "name": "Metro Station", "distance": "900m", "icon": "🚇" }
+  ],
+  "testimonials": [
+    {
+      "name": "Rahul Sharma",
+      "course": "B.Tech, Computer Science",
+      "text": "Yashar's Hostel is the best place I've stayed during my college years. The food is amazing and the rooms are always clean!",
+      "rating": 5,
+      "avatar": "avatar-1.jpg"
+    },
+    {
+      "name": "Priya Patel",
+      "course": "MBA, Finance",
+      "text": "I love the study environment here. The WiFi is fast and the study room is perfect for late-night preparation.",
+      "rating": 5,
+      "avatar": "avatar-2.jpg"
+    },
+    {
+      "name": "Amit Kumar",
+      "course": "B.Sc, Physics",
+      "text": "Affordable and comfortable. The staff is very friendly and the food quality is consistently good.",
+      "rating": 4,
+      "avatar": "avatar-3.jpg"
+    },
+    {
+      "name": "Sneha Reddy",
+      "course": "BCA, 2nd Year",
+      "text": "The security and cleanliness standards here are top-notch. My parents feel safe knowing I'm at Yashar's.",
+      "rating": 5,
+      "avatar": "avatar-4.jpg"
+    }
+  ],
+  "stats": [
+    { "number": "500+", "label": "Happy Students" },
+    { "number": "50+", "label": "Rooms Available" },
+    { "number": "10+", "label": "Years Experience" },
+    { "number": "4.8", "label": "Rating ★" }
+  ]
+}
