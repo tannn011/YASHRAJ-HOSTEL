@@ -54,18 +54,18 @@ async function loadSiteData() {
 function getEmbeddedData() {
   return {
     hostel: {
-      name: "Yashar's Hostel",
+      name: "Yashraj Hostel",
       tagline: "Comfortable Living for Students",
       phone: "+91 8605463560",
       whatsapp: "918605463560"
     },
     rooms: [
-      { id: 1, type: "Single Occupancy", capacity: "1 Person", price: "₹8,000/month", features: ["AC Room", "Attached Bathroom", "Study Desk", "Wi-Fi", "Wardrobe"], available: true, badge: "Premium" },
-      { id: 2, type: "2-Sharing Room", capacity: "2 Persons", price: "₹6,000/month", features: ["AC Room", "Common Bathroom", "Study Desk", "Wi-Fi", "Wardrobe"], available: true, badge: "Popular" },
-      { id: 3, type: "3-Sharing Room", capacity: "3 Persons", price: "₹4,500/month", features: ["Fan Room", "Common Bathroom", "Study Area", "Wi-Fi", "Storage"], available: true, badge: "Value" },
-      { id: 4, type: "4-Sharing Dormitory", capacity: "4 Persons", price: "₹3,500/month", features: ["Fan Room", "Common Bathroom", "Common Study", "Wi-Fi", "Locker"], available: false, badge: "Budget" },
-      { id: 5, type: "Deluxe Single", capacity: "1 Person", price: "₹12,000/month", features: ["AC Room", "Private Bathroom", "Balcony", "Mini Fridge", "TV", "Premium Wi-Fi"], available: true, badge: "Luxury" },
-      { id: 6, type: "Twin Sharing Deluxe", capacity: "2 Persons", price: "₹8,500/month", features: ["AC Room", "Attached Bathroom", "Study Desk", "Wi-Fi", "Wardrobe", "Balcony"], available: true, badge: "Best Seller" }
+      { id: 1, type: "Double Occupancy", capacity: "2 Person", price: "₹4,200/month", features: ["Study Desk", "Wi-Fi", "bed"], available: true, badge: "Premium" },
+      { id: 2, type: "triple-Sharing Room", capacity: "3 Persons", price: "₹4,200/month", features: ["Study Desk", "Wi-Fi", "bed"], available: true, badge: "Popular" },
+      { id: 3, type: "tetra-Sharing Room", capacity: "4 Persons", price: "₹4,200/month", features: ["Study desk", "Wi-fi", "bed"], available: true, badge: "Value" },
+      { id: 4, type: "hexa-Sharing room", capacity: "6 Persons", price: "₹4,200/month", features: ["Study desk", "Wi-Fi", "bed"], available: false, badge: "Budget" },
+      { id: 5, type: "oct-Sharing room", capacity: "8 Person", price: "₹4,200/month", features: ["study table ", "Wi-Fi", "bed"], available: true, badge: "Luxury" },
+      { id: 6, type: "best friend Sharing Deluxe", capacity: "8 Persons", price: "₹4,200/month", features: ["Study Desk", "Wi-Fi", "bed"], available: true, badge: "Best Seller" }
     ],
     gallery: [
       { id: 1, src: "gallery-1.jpg", alt: "Hostel Front View", category: "exterior" },
@@ -78,57 +78,57 @@ function getEmbeddedData() {
       { id: 8, src: "gallery-8.jpg", alt: "Recreation Area", category: "common" }
     ],
     testimonials: [
-      { name: "Rahul Sharma", course: "B.Tech, Computer Science", text: "Yashar's Hostel is the best place I've stayed during my college years. The food is amazing and the rooms are always clean!", rating: 5 },
-      { name: "Priya Patel", course: "MBA, Finance", text: "I love the study environment here. The WiFi is fast and the study room is perfect for late-night preparation.", rating: 5 },
-      { name: "Amit Kumar", course: "B.Sc, Physics", text: "Affordable and comfortable. The staff is very friendly and the food quality is consistently good.", rating: 4 },
-      { name: "Sneha Reddy", course: "BCA, 2nd Year", text: "The security and cleanliness standards here are top-notch. My parents feel safe knowing I'm at Yashar's.", rating: 5 }
+      { name: "TANUSH KADAM", course: "B.Pharm, DKCOP", text: "Yashraj Hostel is the best place I've stayed during my college years. The food is amazing and the rooms are always clean!", rating: 5 },
+      { name: "Shubham Bhise", course: "B.pharm, DKCOP", text: "I love the study environment here. The WiFi is fast and the study room is perfect for late-night preparation.", rating: 5 },
+      { name: "Mayank Shinde", course: "Computer science engineering, DGIT", text: "Affordable and comfortable. The staff is very friendly and the food quality is consistently good.", rating: 4 },
+      { name: "Prasad Pawar", course: "BCA, 2nd Year", text: "The security and cleanliness standards here are top-notch. My parents feel safe knowing I'm at Yashraj hostel.", rating: 5 }
     ],
     foodMenu: {
       monday: {
-        breakfast: { items: ["Poha", "Chai", "Boiled Eggs"], type: "mixed", time: "7:30 AM - 9:00 AM" },
-        lunch: { items: ["Dal Fry", "Rice", "Roti", "Sabzi", "Salad"], type: "veg", time: "12:30 PM - 2:00 PM" },
-        dinner: { items: ["Chicken Curry", "Rice", "Roti", "Dal", "Sweet"], type: "non-veg", time: "7:30 PM - 9:00 PM" }
+      
+        lunch: { items: ["Dal ", "Rice", "Roti", "Sabzi", ], type: "veg", time: "12:00 PM - 2:00 PM" },
+        dinner: { items: ["shevga (drumstick", "Rice", "Roti", "Sweet"], type: "veg", time: "8:00 PM - 9:00 PM" }
       },
       tuesday: {
-        breakfast: { items: ["Idli Sambar", "Chai", "Banana"], type: "veg", time: "7:30 AM - 9:00 AM" },
-        lunch: { items: ["Rajma", "Rice", "Roti", "Aloo Gobi", "Raita"], type: "veg", time: "12:30 PM - 2:00 PM" },
-        dinner: { items: ["Egg Curry", "Rice", "Roti", "Paneer Sabzi"], type: "mixed", time: "7:30 PM - 9:00 PM" }
+        
+        lunch: { items: ["harbara curry", "Rice", "Roti", "Aloo-fry"], type: "veg", time: "12:00 PM - 2:00 PM" },
+        dinner: { items: ["chicken Curry", "Rice", "Roti", "Paneer Sabzi"], type: "mixed", time: "8:00 PM - 9:00 PM" }
       },
       wednesday: {
-        breakfast: { items: ["Upma", "Chai", "Sprouts"], type: "veg", time: "7:30 AM - 9:00 AM" },
-        lunch: { items: ["Chole", "Bhature", "Rice", "Salad", "Pickle"], type: "veg", time: "12:30 PM - 2:00 PM" },
-        dinner: { items: ["Fish Fry", "Dal", "Rice", "Roti", "Sabzi"], type: "non-veg", time: "7:30 PM - 9:00 PM" }
+        
+        lunch: { items: ["vatana curry", "Rice", "bendi"], type: "veg", time: "12:00 PM - 2:00 PM" },
+        dinner: { items: ["spicy gava kadchi daal", "Rice", "Roti", "Sabzi"], type: "veg", time: "8:00 PM - 9:00 PM" }
       },
       thursday: {
-        breakfast: { items: ["Paratha", "Curd", "Chai", "Pickle"], type: "veg", time: "7:30 AM - 9:00 AM" },
-        lunch: { items: ["Sambar", "Rice", "Roti", "Dry Sabzi", "Papad"], type: "veg", time: "12:30 PM - 2:00 PM" },
-        dinner: { items: ["Mutton Curry", "Rice", "Roti", "Dal", "Gulab Jamun"], type: "non-veg", time: "7:30 PM - 9:00 PM" }
+        
+        lunch: { items: ["Sambar", "Rice", "Roti", "Dry Sabzi"], type: "veg", time: "12:00 PM - 2:00 PM" },
+        dinner: { items: ["Mugg Curry", "Rice", "Roti",], type: "veg", time: "8:00 PM - 9:00 PM" }
       },
       friday: {
-        breakfast: { items: ["Bread Omelette", "Chai", "Juice"], type: "non-veg", time: "7:30 AM - 9:00 AM" },
-        lunch: { items: ["Paneer Butter Masala", "Rice", "Naan", "Salad"], type: "veg", time: "12:30 PM - 2:00 PM" },
-        dinner: { items: ["Chicken Biryani", "Raita", "Salad", "Sweet"], type: "non-veg", time: "7:30 PM - 9:00 PM" }
+        
+        lunch: { items: ["spicy daal", "Rice", "dry sabji"], type: "veg", time: "12:00 PM - 2:00 PM" },
+        dinner: { items: ["Chicken curry", "roti", "rice", "panner curry"], type: "mixed", time: "8:00 PM - 9:00 PM" }
       },
       saturday: {
-        breakfast: { items: ["Dosa", "Chutney", "Sambar", "Chai"], type: "veg", time: "7:30 AM - 9:00 AM" },
-        lunch: { items: ["Mix Veg", "Dal Tadka", "Rice", "Roti", "Buttermilk"], type: "veg", time: "12:30 PM - 2:00 PM" },
-        dinner: { items: ["Egg Biryani", "Paneer Tikka", "Roti", "Salad"], type: "mixed", time: "7:30 PM - 9:00 PM" }
+        
+        lunch: { items: ["harbara, "Rice", "Roti"], type: "veg", time: "12:00 PM - 2:00 PM" },
+        dinner: { items: ["hulgaa soap", "Roti", "rice"], type: "veg", time: "8:00 PM - 9:00 PM" }
       },
       sunday: {
-        breakfast: { items: ["Chole Bhature", "Lassi", "Sweet"], type: "veg", time: "8:00 AM - 10:00 AM" },
-        lunch: { items: ["Special Thali", "Rice", "3 Sabzi", "Dal", "Dessert"], type: "veg", time: "12:30 PM - 2:30 PM" },
-        dinner: { items: ["Butter Chicken", "Naan", "Rice", "Gulab Jamun", "Salad"], type: "non-veg", time: "7:30 PM - 9:30 PM" }
+        
+        lunch: { items: ["besan ", "Rice", "dry Sabzi", "Dal"], type: "veg", time: "12:30 PM - 2:30 PM" },
+        dinner: { items: ["misal pav", "veg polav", "raita",], type: "veg", time: "7:30 PM - 9:30 PM" }
       }
     },
     landmarks: [
-      { name: "City College", distance: "500m", icon: "🎓" },
-      { name: "Central Bus Station", distance: "1.2 km", icon: "🚌" },
-      { name: "Railway Station", distance: "2.5 km", icon: "🚂" },
-      { name: "City Hospital", distance: "800m", icon: "🏥" },
-      { name: "Shopping Mall", distance: "1.5 km", icon: "🛒" },
-      { name: "Public Library", distance: "600m", icon: "📚" },
+      { name: "Datta kala college", distance: "500m", icon: "🎓" },
+      { name: "Central Bus Station", distance: "3 km", icon: "🚌" },
+      { name: "Railway Station", distance: "8 km", icon: "🚂" },
+      { name: "bhigwan Hospital", distance: "3 km", icon: "🏥" },
+      { name: "Shopping Area", distance: "3 km", icon: "🛒" },
+      { name: "college Library", distance: "500m", icon: "📚" },
       { name: "Sports Complex", distance: "1 km", icon: "🏟️" },
-      { name: "Metro Station", distance: "900m", icon: "🚇" }
+
     ]
   };
 }
@@ -799,20 +799,20 @@ function renderFoodMenu(day) {
   if (!dayMenu) return;
 
   const mealIcons = {
-    breakfast: '☕',
+    
     lunch: '🍛',
     dinner: '🍽️'
   };
 
   const mealNames = {
-    breakfast: 'Breakfast',
+    
     lunch: 'Lunch',
     dinner: 'Dinner'
   };
 
   let menuHTML = '';
 
-  ['breakfast', 'lunch', 'dinner'].forEach(meal => {
+  [ 'lunch', 'dinner'].forEach(meal => {
     const mealData = dayMenu[meal];
     if (!mealData) return;
 
