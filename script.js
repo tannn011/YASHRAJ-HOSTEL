@@ -111,7 +111,7 @@ function getEmbeddedData() {
       },
       saturday: {
         
-        lunch: { items: ["harbara, "Rice", "Roti"], type: "veg", time: "12:00 PM - 2:00 PM" },
+        lunch: { items: ["harbara", "Rice", "Roti"], type: "veg", time: "12:00 PM - 2:00 PM" },
         dinner: { items: ["hulgaa soap", "Roti", "rice"], type: "veg", time: "8:00 PM - 9:00 PM" }
       },
       sunday: {
