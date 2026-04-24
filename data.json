@@ -7,11 +7,11 @@
     "whatsapp": "918605463560",
     "email": "info@yasharshostel.com",
     "address": {
-      "line1": "123 University Road",
-      "line2": "Near City College Campus",
+      "line1": "Pune solapur highway Swami chincholi bhigwan",
+      "line2": "Near Datta kala college of pharmacy",
       "city": "Pune",
       "state": "Maharashtra",
-      "pincode": "411001",
+      "pincode": "413130",
       "country": "India"
     },
     "social": {
@@ -32,11 +32,11 @@
   "rooms": [
     {
       "id": 1,
-      "type": "Single Occupancy",
-      "capacity": "1 Person",
-      "price": "₹8,000/month",
+      "type": "Double Occupancy",
+      "capacity": "2 Person",
+      "price": "₹4,200/month",
       "image": "room-single.jpg",
-      "features": ["AC Room", "Attached Bathroom", "Study Desk", "Wi-Fi", "Wardrobe"],
+      "features": ["Study Desk", "Wi-Fi", "24/7 light"],
       "available": true,
       "badge": "Premium"
     },
@@ -44,9 +44,9 @@
       "id": 2,
       "type": "2-Sharing Room",
       "capacity": "2 Persons",
-      "price": "₹6,000/month",
+      "price": "₹4,200/month",
       "image": "room-double.jpg",
-      "features": ["AC Room", "Common Bathroom", "Study Desk", "Wi-Fi", "Wardrobe"],
+      "features": ["Study Desk", "Wi-Fi", "24/7 light"],
       "available": true,
       "badge": "Popular"
     },
@@ -56,7 +56,7 @@
       "capacity": "3 Persons",
       "price": "₹4,500/month",
       "image": "room-triple.jpg",
-      "features": ["Fan Room", "Common Bathroom", "Study Area", "Wi-Fi", "Storage"],
+      "features": ["Study Desk", "Wi-Fi", "24/7 light"],
       "available": true,
       "badge": "Value"
     },
@@ -64,52 +64,52 @@
       "id": 4,
       "type": "4-Sharing Dormitory",
       "capacity": "4 Persons",
-      "price": "₹3,500/month",
+      "price": "₹4,200/month",
       "image": "room-dorm.jpg",
-      "features": ["Fan Room", "Common Bathroom", "Common Study", "Wi-Fi", "Locker"],
+      "features": ["Study Desk", "Wi-Fi", "24/7 light"],
       "available": false,
       "badge": "Budget"
     },
     {
       "id": 5,
-      "type": "Deluxe Single",
-      "capacity": "1 Person",
-      "price": "₹12,000/month",
+      "type": "Octa circle ",
+      "capacity": "8 Person",
+      "price": "₹4,200/month",
       "image": "room-deluxe.jpg",
-      "features": ["AC Room", "Private Bathroom", "Balcony", "Mini Fridge", "TV", "Premium Wi-Fi"],
+      "features": ["Study Desk", "Wi-Fi", "24/7 light"],
       "available": true,
       "badge": "Luxury"
     },
     {
       "id": 6,
-      "type": "Twin Sharing Deluxe",
-      "capacity": "2 Persons",
-      "price": "₹8,500/month",
+      "type": "Hexa Sharing Deluxe",
+      "capacity": "6 Persons",
+      "price": "₹4,200/month",
       "image": "room-twin-deluxe.jpg",
-      "features": ["AC Room", "Attached Bathroom", "Study Desk", "Wi-Fi", "Wardrobe", "Balcony"],
+      "features": ["Study Desk", "Wi-Fi", "24/7 light"],
       "available": true,
       "badge": "Best Seller"
     }
   ],
   "gallery": [
     { "id": 1, "src": "gallery-1.jpg", "alt": "Hostel Front View", "category": "exterior" },
-    { "id": 2, "src": "gallery-2.jpg", "alt": "Common Room", "category": "common" },
+    { "id": 2, "src": "gallery-2.jpg", "alt": "Walk-in Areas", "category": "common" },
     { "id": 3, "src": "gallery-3.jpg", "alt": "Study Area", "category": "common" },
     { "id": 4, "src": "gallery-4.jpg", "alt": "Bedroom Interior", "category": "rooms" },
-    { "id": 5, "src": "gallery-5.jpg", "alt": "Dining Hall", "category": "dining" },
+    { "id": 5, "src": "gallery-5.jpg", "alt": "Dining space", "category": "dining" },
     { "id": 6, "src": "gallery-6.jpg", "alt": "Bathroom Facilities", "category": "rooms" },
-    { "id": 7, "src": "gallery-7.jpg", "alt": "Terrace Garden", "category": "exterior" },
+    { "id": 7, "src": "gallery-7.jpg", "alt": "Terrace ", "category": "exterior" },
     { "id": 8, "src": "gallery-8.jpg", "alt": "Recreation Area", "category": "common" }
   ],
   "facilities": [
     { "icon": "🛡️", "name": "24/7 Security", "description": "Round the clock CCTV and guard" },
     { "icon": "📶", "name": "High-Speed WiFi", "description": "100 Mbps fiber connection" },
     { "icon": "🧹", "name": "Daily Cleaning", "description": "Professional housekeeping staff" },
-    { "icon": "💧", "name": "Hot Water", "description": "24/7 hot water supply" },
+    { "icon": "💧", "name": "Hot Water", "description": "Every Morning hot water supply" },
     { "icon": "🔌", "name": "Power Backup", "description": "Uninterrupted power supply" },
-    { "icon": "🧺", "name": "Laundry Service", "description": "Weekly laundry included" },
+    
     { "icon": "🅿️", "name": "Parking", "description": "Two-wheeler parking available" },
-    { "icon": "📖", "name": "Study Room", "description": "Quiet study area with AC" }
+    { "icon": "📖", "name": "Study Area", "description": "Quiet study area " }
   ],
   "foodMenu": {
     "monday": {
@@ -149,48 +149,48 @@
     }
   },
   "landmarks": [
-    { "name": "City College", "distance": "500m", "icon": "🎓" },
+    { "name": "DGIT College", "distance": "500m", "icon": "🎓" },
     { "name": "Central Bus Station", "distance": "1.2 km", "icon": "🚌" },
     { "name": "Railway Station", "distance": "2.5 km", "icon": "🚂" },
-    { "name": "City Hospital", "distance": "800m", "icon": "🏥" },
-    { "name": "Shopping Mall", "distance": "1.5 km", "icon": "🛒" },
+    { "name": "Bhigwan Hospital", "distance": "800m", "icon": "🏥" },
+    { "name": "Shopping Area", "distance": "1.5 km", "icon": "🛒" },
     { "name": "Public Library", "distance": "600m", "icon": "📚" },
-    { "name": "Sports Complex", "distance": "1 km", "icon": "🏟️" },
-    { "name": "Metro Station", "distance": "900m", "icon": "🚇" }
+    { "name": "Sports Ground", "distance": "1 km", "icon": "🏟️" },
+    
   ],
   "testimonials": [
     {
-      "name": "Rahul Sharma",
-      "course": "B.Tech, Computer Science",
-      "text": "Yashar's Hostel is the best place I've stayed during my college years. The food is amazing and the rooms are always clean!",
+      "name": "TANUSH KADAM",
+      "course": "B.PHARMA, INDUSTRIAL PHARMACY",
+      "text": "Yashraj Hostel is the best place I've stayed during my college years. The food is amazing and the rooms are always clean!",
       "rating": 5,
       "avatar": "avatar-1.jpg"
     },
     {
-      "name": "Priya Patel",
-      "course": "MBA, Finance",
+      "name": "SHUBHAM BHISE",
+      "course": "B.PHARMA, INDUSTRIAL PHARMACY",
       "text": "I love the study environment here. The WiFi is fast and the study room is perfect for late-night preparation.",
       "rating": 5,
       "avatar": "avatar-2.jpg"
     },
     {
-      "name": "Amit Kumar",
-      "course": "B.Sc, Physics",
+      "name": "PARTH AKHADE",
+      "course": "TY CS ENGINEERING",
       "text": "Affordable and comfortable. The staff is very friendly and the food quality is consistently good.",
       "rating": 4,
       "avatar": "avatar-3.jpg"
     },
     {
-      "name": "Sneha Reddy",
+      "name": "PRASAD PAWAR ",
       "course": "BCA, 2nd Year",
-      "text": "The security and cleanliness standards here are top-notch. My parents feel safe knowing I'm at Yashar's.",
+      "text": "The security and cleanliness standards here are top-notch. My parents feel safe knowing I'm at Yashraj hostel.",
       "rating": 5,
       "avatar": "avatar-4.jpg"
     }
   ],
   "stats": [
     { "number": "500+", "label": "Happy Students" },
-    { "number": "50+", "label": "Rooms Available" },
+    { "number": "25+", "label": "Rooms Available" },
     { "number": "10+", "label": "Years Experience" },
     { "number": "4.8", "label": "Rating ★" }
   ]
