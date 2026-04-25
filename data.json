@@ -111,41 +111,34 @@
     { "icon": "🅿️", "name": "Parking", "description": "Two-wheeler parking available" },
     { "icon": "📖", "name": "Study Area", "description": "Quiet study area " }
   ],
-  "foodMenu": {
+    "foodMenu": {
     "monday": {
-      "breakfast": { "items": ["Poha", "Chai", "Boiled Eggs"], "type": "mixed", "time": "7:30 AM - 9:00 AM" },
-      "lunch": { "items": ["Dal Fry", "Rice", "Roti", "Sabzi", "Salad"], "type": "veg", "time": "12:30 PM - 2:00 PM" },
-      "dinner": { "items": ["Chicken Curry", "Rice", "Roti", "Dal", "Sweet"], "type": "non-veg", "time": "7:30 PM - 9:00 PM" }
+      "lunch": { "items": ["Dal", "Rice", "Roti", "Sabzi"], "type": "veg", "time": "12:00 PM - 2:00 PM" },
+      "dinner": { "items": ["Shevga (Drumstick) Curry", "Rice", "Roti", "Sweet"], "type": "veg", "time": "8:00 PM - 9:00 PM" }
     },
     "tuesday": {
-      "breakfast": { "items": ["Idli Sambar", "Chai", "Banana"], "type": "veg", "time": "7:30 AM - 9:00 AM" },
-      "lunch": { "items": ["Rajma", "Rice", "Roti", "Aloo Gobi", "Raita"], "type": "veg", "time": "12:30 PM - 2:00 PM" },
-      "dinner": { "items": ["Egg Curry", "Rice", "Roti", "Paneer Sabzi"], "type": "mixed", "time": "7:30 PM - 9:00 PM" }
+      "lunch": { "items": ["Harbara Curry", "Rice", "Roti", "Aloo Fry"], "type": "veg", "time": "12:00 PM - 2:00 PM" },
+      "dinner": { "items": ["Chicken Curry", "Rice", "Roti", "Paneer Sabzi"], "type": "mixed", "time": "8:00 PM - 9:00 PM" }
     },
     "wednesday": {
-      "breakfast": { "items": ["Upma", "Chai", "Sprouts"], "type": "veg", "time": "7:30 AM - 9:00 AM" },
-      "lunch": { "items": ["Chole", "Bhature", "Rice", "Salad", "Pickle"], "type": "veg", "time": "12:30 PM - 2:00 PM" },
-      "dinner": { "items": ["Fish Fry", "Dal", "Rice", "Roti", "Sabzi"], "type": "non-veg", "time": "7:30 PM - 9:00 PM" }
+      "lunch": { "items": ["Vatana Curry", "Rice", "Bendi Sabzi"], "type": "veg", "time": "12:00 PM - 2:00 PM" },
+      "dinner": { "items": ["Spicy Gava Kadchi Daal", "Rice", "Roti", "Sabzi"], "type": "veg", "time": "8:00 PM - 9:00 PM" }
     },
     "thursday": {
-      "breakfast": { "items": ["Paratha", "Curd", "Chai", "Pickle"], "type": "veg", "time": "7:30 AM - 9:00 AM" },
-      "lunch": { "items": ["Sambar", "Rice", "Roti", "Dry Sabzi", "Papad"], "type": "veg", "time": "12:30 PM - 2:00 PM" },
-      "dinner": { "items": ["Mutton Curry", "Rice", "Roti", "Dal", "Gulab Jamun"], "type": "non-veg", "time": "7:30 PM - 9:00 PM" }
+      "lunch": { "items": ["Sambar", "Rice", "Roti", "Dry Sabzi"], "type": "veg", "time": "12:00 PM - 2:00 PM" },
+      "dinner": { "items": ["Mugg Curry", "Rice", "Roti"], "type": "veg", "time": "8:00 PM - 9:00 PM" }
     },
     "friday": {
-      "breakfast": { "items": ["Bread Omelette", "Chai", "Juice"], "type": "non-veg", "time": "7:30 AM - 9:00 AM" },
-      "lunch": { "items": ["Paneer Butter Masala", "Rice", "Naan", "Salad"], "type": "veg", "time": "12:30 PM - 2:00 PM" },
-      "dinner": { "items": ["Chicken Biryani", "Raita", "Salad", "Sweet"], "type": "non-veg", "time": "7:30 PM - 9:00 PM" }
+      "lunch": { "items": ["Spicy Daal", "Rice", "Dry Sabji"], "type": "veg", "time": "12:00 PM - 2:00 PM" },
+      "dinner": { "items": ["Chicken Curry", "Roti", "Rice", "Paneer Curry"], "type": "mixed", "time": "8:00 PM - 9:00 PM" }
     },
     "saturday": {
-      "breakfast": { "items": ["Dosa", "Chutney", "Sambar", "Chai"], "type": "veg", "time": "7:30 AM - 9:00 AM" },
-      "lunch": { "items": ["Mix Veg", "Dal Tadka", "Rice", "Roti", "Buttermilk"], "type": "veg", "time": "12:30 PM - 2:00 PM" },
-      "dinner": { "items": ["Egg Biryani", "Paneer Tikka", "Roti", "Salad"], "type": "mixed", "time": "7:30 PM - 9:00 PM" }
+      "lunch": { "items": ["Harbara", "Rice", "Roti"], "type": "veg", "time": "12:00 PM - 2:00 PM" },
+      "dinner": { "items": ["Hulgaa Soup", "Roti", "Rice"], "type": "veg", "time": "8:00 PM - 9:00 PM" }
     },
     "sunday": {
-      "breakfast": { "items": ["Chole Bhature", "Lassi", "Sweet"], "type": "veg", "time": "8:00 AM - 10:00 AM" },
-      "lunch": { "items": ["Special Thali", "Rice", "3 Sabzi", "Dal", "Dessert"], "type": "veg", "time": "12:30 PM - 2:30 PM" },
-      "dinner": { "items": ["Butter Chicken", "Naan", "Rice", "Gulab Jamun", "Salad"], "type": "non-veg", "time": "7:30 PM - 9:30 PM" }
+      "lunch": { "items": ["Besan Sabzi", "Rice", "Dry Sabzi", "Dal"], "type": "veg", "time": "12:30 PM - 2:30 PM" },
+      "dinner": { "items": ["Misal Pav", "Veg Pulao", "Raita"], "type": "veg", "time": "7:30 PM - 9:30 PM" }
     }
   },
   "landmarks": [
