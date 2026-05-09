@@ -69,13 +69,13 @@ function getEmbeddedData() {
     ],
     gallery: [
       { id: 1, src: "gallery-1.jpg", alt: "Hostel Front View", category: "exterior" },
-      { id: 2, src: "gallery-2.jpg", alt: "Common Room", category: "common" },
+      
       { id: 3, src: "gallery-3.jpg", alt: "Study Area", category: "common" },
       { id: 4, src: "gallery-4.jpg", alt: "Bedroom Interior", category: "rooms" },
-      { id: 5, src: "gallery-5.jpg", alt: "Dining Hall", category: "dining" },
+      { id: 5, src: "gallery-5.jpg", alt: "Dining area", category: "dining" },
       { id: 6, src: "gallery-6.jpg", alt: "Bathroom Facilities", category: "rooms" },
-      { id: 7, src: "gallery-7.jpg", alt: "Terrace Garden", category: "exterior" },
-      { id: 8, src: "gallery-8.jpg", alt: "Recreation Area", category: "common" }
+      { id: 7, src: "gallery-7.jpg", alt: "Terrace", category: "exterior" },
+      
     ],
     testimonials: [
       { name: "TANUSH KADAM", course: "B.Pharm, DKCOP", text: "Yashraj Hostel is the best place I've stayed during my college years. The food is amazing and the rooms are always clean!", rating: 5 },
