@@ -93,13 +93,13 @@
   ],
   "gallery": [
     { "id": 1, "src": "gallery-1.jpg", "alt": "Hostel Front View", "category": "exterior" },
-    { "id": 2, "src": "gallery-2.jpg", "alt": "Walk-in Areas", "category": "common" },
+    
     { "id": 3, "src": "gallery-3.jpg", "alt": "Study Area", "category": "common" },
     { "id": 4, "src": "gallery-4.jpg", "alt": "Bedroom Interior", "category": "rooms" },
     { "id": 5, "src": "gallery-5.jpg", "alt": "Dining space", "category": "dining" },
     { "id": 6, "src": "gallery-6.jpg", "alt": "Bathroom Facilities", "category": "rooms" },
     { "id": 7, "src": "gallery-7.jpg", "alt": "Terrace ", "category": "exterior" },
-    { "id": 8, "src": "gallery-8.jpg", "alt": "Recreation Area", "category": "common" }
+    
   ],
   "facilities": [
     { "icon": "🛡️", "name": "24/7 Security", "description": "Round the clock CCTV and guard" },
